@@ -1,0 +1,16 @@
+.navlinks {
+  background-color: #684c97;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding-top: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.nav-items {
+  font-size: 1.5rem;
+  color: var(--white-color);
+}

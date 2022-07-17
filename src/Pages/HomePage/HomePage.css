@@ -1,0 +1,41 @@
+.home-page {
+  background: linear-gradient(180deg, #684c97, #caa4bd);
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 7rem;
+}
+.portfolio-image {
+  object-fit: cover;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 100%;
+  padding: 3px;
+}
+.intro-title {
+  /* width: 40%; */
+  padding-top: 1rem;
+  color: var(--white-color);
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  text-align: center;
+  text-justify: auto;
+}
+.intro-text {
+  color: var(--white-color);
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-align: center;
+  text-justify: auto;
+}
+.social-links {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}

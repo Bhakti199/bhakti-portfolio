@@ -1,0 +1,17 @@
+.blog-page {
+  background: linear-gradient(180deg, #684c97, #caa4bd);
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  overflow-y: scroll;
+}
+@media screen and (max-width: 500px) {
+  .blog-page {
+    padding-top: 10rem;
+  }
+}
