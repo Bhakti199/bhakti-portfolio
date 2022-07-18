@@ -9,6 +9,7 @@
   flex-wrap: wrap;
   gap: 3rem;
   overflow-y: scroll;
+  padding-bottom: 4rem;
 }
 
 @media screen and (max-width: 500px) {
